@@ -1,3 +1,8 @@
+from data import DataHandler
+from strategy import Strategy
+from portfolio import Portfolio
+from execution import ExecutionHandler
+
 # Declare the components with respective parameters
 bars = DataHandler()
 strategy = Strategy()
